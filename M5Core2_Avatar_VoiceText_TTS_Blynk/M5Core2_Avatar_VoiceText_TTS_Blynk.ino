@@ -184,7 +184,7 @@ BLYNK_WRITE(V3)
 void loop()
 {
   static int lastms = 0;
-  Blynk.run();
+//  Blynk.run();
   M5.update();
   if (M5.BtnA.wasPressed())
   {
@@ -220,5 +220,7 @@ void loop()
       delete buff;
       Serial.println("mp3 stop");
     }
+  } else {
+    Blynk.run();
   }
 }
