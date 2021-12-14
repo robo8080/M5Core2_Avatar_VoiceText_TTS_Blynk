@@ -133,9 +133,11 @@ BLYNK_WRITE(V1)
   Serial.print("BLYNK_WRITE(V1): ");
   Serial.println(pinValue);
   
-  avatar.setExpression(Expression::Happy);
-  VoiceText_tts(text, tts_parms1);
-  avatar.setExpression(Expression::Neutral);
+  if(!mp3->isRunning()) {    
+    avatar.setExpression(Expression::Happy);
+    VoiceText_tts(text, tts_parms1);
+    avatar.setExpression(Expression::Neutral);
+  }
 
 }
 
@@ -151,9 +153,11 @@ BLYNK_WRITE(V2)
   Serial.print("BLYNK_WRITE(V2): ");
   Serial.println(pinValue);
   
-  avatar.setExpression(Expression::Happy);
-  VoiceText_tts(text, tts_parms2);
-  avatar.setExpression(Expression::Neutral);
+  if(!mp3->isRunning()) {    
+    avatar.setExpression(Expression::Happy);
+    VoiceText_tts(text, tts_parms2);
+    avatar.setExpression(Expression::Neutral);
+  }
   
 }
 
@@ -169,9 +173,11 @@ BLYNK_WRITE(V3)
   Serial.print("BLYNK_WRITE(V3): ");
   Serial.println(pinValue);
   
-  avatar.setExpression(Expression::Happy);
-  VoiceText_tts(text, tts_parms3);
-  avatar.setExpression(Expression::Neutral);
+  if(!mp3->isRunning()) {    
+    avatar.setExpression(Expression::Happy);
+    VoiceText_tts(text, tts_parms3);
+    avatar.setExpression(Expression::Neutral);
+  }
   
 }
 
