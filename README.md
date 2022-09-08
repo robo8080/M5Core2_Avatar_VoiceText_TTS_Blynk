@@ -12,13 +12,9 @@ esp32_text_to_speech <https://github.com/kghrlabo/esp32_text_to_speech><br>
 ### 必要な物 ###
 * [M5Stack Core2 または M5Stack Fire](http://www.m5stack.com/ "Title") (M5Stack Core2、M5Stack Core2 for AWS、M5Stack Fireで動作確認をしました。)<br>
 * Arduino IDE (バージョン 1.8.15で動作確認をしました。)<br>
-* [M5Stack-Avatar](https://github.com/meganetaaan/m5stack-avatar/ "Title")ライブラリ(バージョン 0.7.3で動作確認をしました。)<br>
+* [M5Stack-Avatar](https://github.com/meganetaaan/m5stack-avatar/ "Title")ライブラリ(バージョン 0.7.4で動作確認をしました。)<br>
 * [ESP8266Audio](https://github.com/earlephilhower/ESP8266Audio/ "Title")ライブラリ(バージョン 1.9.3で動作確認をしました。)<br>
 * [Blynk](https://blynk.io/ "Title")ライブラリ(バージョン 1.0.1で動作確認をしました。)<br><br>
-
-### M5Stack-Avatarライブラリの変更 ###
-* "Avatar.cpp"の下図赤枠部分を変更します。
-![画像1](images/image1.png)<br><br>
 
 ### WiFiの設定 ###
 * M5Core2_Avatar_VoiceText_TTS_Blynk.inoの15行目付近、SSIDとPASSWORDを設定してください。
