@@ -16,7 +16,7 @@ esp32_text_to_speech <https://github.com/kghrlabo/esp32_text_to_speech><br>
 * [ESP8266Audio](https://github.com/earlephilhower/ESP8266Audio/ "Title")ライブラリ(バージョン 1.9.3で動作確認をしました。)<br>
 * [Blynk](https://blynk.io/ "Title")ライブラリ(バージョン 1.0.1で動作確認をしました。)<br>
 * ボードマネージャー arduino-esp32 (v1.0.6で動作確認をしました。) <br>
-* M5Core2ライブラリ 0.1.3 (0.1.4以降だと音がおかしくなるようです。)<br><br>
+* M5Stack Core2を使用するときはM5Core2ライブラリ 0.1.3 (0.1.4以降だと音がおかしくなるようです。)<br><br>
 
 
 ### WiFiの設定 ###
