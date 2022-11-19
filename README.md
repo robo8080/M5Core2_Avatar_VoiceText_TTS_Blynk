@@ -1,5 +1,14 @@
 # M5Core2_Avatar_VoiceText_TTS_Blynk
 M5Core2_Avatar_VoiceText_TTS_Blynk
+
+---
+### [注意]M5Unified版を作ったのでこちらを使うことをお勧めします。 ###
+
+* [M5Unified_Avatar_VoiceText_TTS_Blynk](https://github.com/robo8080/M5Unified_Avatar_VoiceText_TTS_Blynk/ "Title")<br>
+
+---
+
+
 M5Stack Core2で、M5Stack-AvatarとHOYA社が提供する[VoiceText Web APIサービス](https://cloud.voicetext.jp/webapi "Title")を使った音声合成(TTS)を動かすテストプログラムです。
 
 
